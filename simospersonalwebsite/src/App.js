@@ -1,10 +1,20 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import LeftMenu from './LeftMenu'; 
+import Navbar from './components/Navbar.js'; 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <LeftMenu />
+    <>
+      <div>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Navbar />}/>
+          </Routes>
+        </Router>
+      </div>
+    </>
   );
 }
 
