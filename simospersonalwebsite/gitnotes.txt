@@ -1,0 +1,24 @@
+Switch to master: This is used to still be able to merge into master
+
+bash
+Copy
+Edit
+git checkout master
+Update master (in case it's behind):
+
+bash
+Copy
+Edit
+git pull origin master
+Merge your branch into master:
+
+bash
+Copy
+Edit
+git merge feature-x
+Push the updated master to GitHub:
+
+bash
+Copy
+Edit
+git push origin master
