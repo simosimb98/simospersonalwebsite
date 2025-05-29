@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #4290f5;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-icon {
+    margin-left: 50px;
+}
+
+.menu-bars {
+
+}
