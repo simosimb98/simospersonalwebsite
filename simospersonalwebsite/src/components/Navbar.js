@@ -16,14 +16,14 @@ function Navbar() {
         <>
             <div className="navbar">
                 <Link to="/" className="navbar-link">
-                    <FaIcons.FaHome className="navbar-icon" onClick={showSidebar} />
+                    <FaIcons.FaAlignJustify className="navbar-icon" onClick={showSidebar} />
                 </Link>
             </div>
             
-            <nav className={sidebar ? "navbar-menu active" : "navbar-menu"}>
-                <ul className="navbar-menu-items">
-                    <li className="nav-text">
-                        <Link to="/"><FaIcons.FaRegWindowClose /> <span>Close</span></Link>
+            <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+                <ul className="nav-menu-items">
+                    <li className="navbar-toggle">
+                        <Link to="#" className='menu-bars'><FaIcons.FaRegWindowClose /></Link>
                     </li>
                     {SideBarData.map((itm,idx)=> {
                         return(
