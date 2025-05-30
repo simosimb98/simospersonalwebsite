@@ -2,7 +2,7 @@ import * as FaIcons from 'react-icons/fa';
 
 export const SideBarData = [
     {
-        title : 'About me',
+        title : 'About',
         path  : '/about',
         icon  : <FaIcons.FaRegGrin />,
         clName: 'nav-text'

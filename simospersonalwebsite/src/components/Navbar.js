@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { SideBarData } from './SideBarData';
+import Socials from './Socials';
+
 import './Navbar.css';
 
 function Navbar() {
@@ -15,7 +17,7 @@ function Navbar() {
     return(
         <>
             <div className="navbar">
-                <Link to="/" className="navbar-link">
+                <Link to="/" className="menu-bars">
                     <FaIcons.FaAlignJustify className="navbar-icon" onClick={showSidebar} />
                 </Link>
             </div>
@@ -23,7 +25,7 @@ function Navbar() {
             <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
                 <ul className="nav-menu-items">
                     <li className="navbar-toggle">
-                        <Link to="#" className='menu-bars'><FaIcons.FaRegWindowClose /></Link>
+                        <Link to="#" className='menu-bars'><FaIcons.FaRegWindowClose  onClick={showSidebar}/></Link>
                     </li>
                     {SideBarData.map((itm,idx)=> {
                         return(
@@ -33,7 +35,11 @@ function Navbar() {
                         );
                     })}
                 </ul>
+
+                <Socials/>
             </nav>
+
+
         </>
     );
 }

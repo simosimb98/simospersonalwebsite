@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #4290f5;
+    background-color: #2a5fa5;
     height: 80px;
     display: flex;
     justify-content: start;
@@ -7,14 +7,14 @@
 }
 
 .menu-bars {
-    margin-left: 2rem;
+    margin-left: 1rem;
     font-size: 2rem;
     background: none;
 }
 
 .nav-menu {
-    background-color: #4290f5;
-    width: 250px;
+    background-color: #2a5fa5;
+    width: 200px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 8px 0px 8px 16px;
+    /* padding: 8px 0px 8px 16px; */
     list-style: none;
     height: 60px;
 }
@@ -45,29 +45,30 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     padding: 0px 16px;
     border-radius: 4px;
 }
 
 .nav-text a:hover {
-    background-color: aquamarine;
+    background-color: rgb(127, 161, 255);
 }
 
 .nav-menu-items {
     width: 100%;
+    position: relative;
 }
 
 .navbar-toggle {
-    background-color: aquamarine;
-    /* width: 100%;
-    height: 100%; */
+    background-color: #2a5fa5;
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
 span {
-    margin-left: 3px;
+    margin-left: 10px;
 }

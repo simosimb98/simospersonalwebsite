@@ -1,0 +1,11 @@
+.my-socials {
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;  
+    z-index: 10;
+}
+
+.my-socials > a {
+    color: antiquewhite;
+    padding: 10px;
+}
