@@ -3,6 +3,7 @@ import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { SideBarData } from './SideBarData';
 import Socials from './Socials';
+// import pfp from '/public/simos_london_bridge.jpg';
 
 import './Navbar.css';
 
@@ -23,6 +24,10 @@ function Navbar() {
             </div>
             
             <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+                <div className='profile-picture'>
+                    {/* <img src="/public/simos_london_bridge.jpg" /> */}
+                </div>
+
                 <ul className="nav-menu-items">
                     <li className="navbar-toggle">
                         <Link to="#" className='menu-bars'><FaIcons.FaRegWindowClose  onClick={showSidebar}/></Link>
