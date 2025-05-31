@@ -35,7 +35,7 @@ function Navbar() {
                     {SideBarData.map((itm,idx)=> {
                         return(
                             <li className={itm.clName} key={idx}>
-                                <Link to={itm.path}>{itm.icon} <span>{itm.title}</span></Link>
+                                <Link to={itm.path} onClick={showSidebar}>{itm.icon} <span>{itm.title}</span></Link>
                             </li>
                         );
                     })}

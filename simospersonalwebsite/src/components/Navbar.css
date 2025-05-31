@@ -1,22 +1,23 @@
 .navbar {
-    background-color: #2a5fa5;
+    background-color: #1d2939;
     height: 80px;
+    /* width: 100%; */
     display: flex;
     justify-content: start;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 
 .menu-bars {
     margin-left: 1rem;
     font-size: 2rem;
     background: none;
-    color: antiquewhite;
-    display: none;
+    color: antiquewhite
+    /* display: none; */
 }
 
 .nav-menu {
-    background-color: #2a5fa5;
+    background-color: #1d2939;
     width: 200px;
     height: 100vh;
     display: flex;
@@ -64,7 +65,7 @@
 }
 
 .navbar-toggle {
-    background-color: #2a5fa5;
+    background-color: #1d2939;
     width: 100%;
     height: 80px;
     display: flex;
