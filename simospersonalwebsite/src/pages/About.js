@@ -1,8 +1,12 @@
+import { Element, Events, scrollSpy } from "react-scroll";
+
 function About() {
     return(
-        <div>
-            <p>Hi this is simos</p>
-        </div>
+        <Element name="about" className="section">
+            <div>
+                <p>Hi this is simos</p>
+            </div>
+        </Element>
     );
 }
 

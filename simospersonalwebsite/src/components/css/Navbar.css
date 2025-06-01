@@ -5,6 +5,11 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    position: fixed;
+    top: 0; /* or wherever you want it pinned */
+    left: 0; /* optional */
+    right: 0; /* optional */
+    z-index: 1000; /* usually to keep it on top */
     /* display: none; */
 }
 

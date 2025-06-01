@@ -1,7 +1,7 @@
 
 import * as FaIcons from 'react-icons/fa';
 import { ExternalLink } from 'react-external-link'
-import './Socials.css'
+import './css/Socials.css'
 
 function Socials () {
     return(

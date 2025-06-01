@@ -1,11 +1,10 @@
 import React, { useState } from 'react'; 
 import * as FaIcons from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { SideBarData } from './SideBarData';
 import Socials from './Socials';
-// import pfp from '/public/simos_london_bridge.jpg';
-
-import './Navbar.css';
+import './css/Navbar.css';
+import { Link, Element, Events, scrollSpy } from "react-scroll";
 
 function Navbar() {
 
@@ -31,7 +30,9 @@ function Navbar() {
                     {SideBarData.map((itm,idx)=> {
                         return(
                             <li className={itm.clName} key={idx}>
-                                <Link to={itm.path} onClick={showSidebar}>{itm.icon} <span>{itm.title}</span></Link>
+                                <Link to={itm.path} onClick={showSidebar} smooth={true} duration={500} spy={true} activeClass="active">
+                                    {itm.icon} <span>{itm.title}</span>
+                                </Link>
                             </li>
                         );
                     })}
@@ -39,8 +40,6 @@ function Navbar() {
 
                 <Socials/>
             </nav>
-
-
         </>
     );
 }

@@ -1,11 +1,13 @@
-import './Home.css';
+import './css/Home.css';
 import { useNavigate } from "react-router-dom";
+import About from './About.js';
 
 function Home() {
   const navigateToAbout = useNavigate();
 
   return (
     <>
+    <div className="home-section">
       <div className="profile-picture">
         <img width="300" height="300" src="/images/simos_imbraem_logo_1_new.png" alt="Simos Imbraem"/>
       </div>
@@ -22,6 +24,8 @@ function Home() {
           GET TO KNOW ABOUT ME!
         </button>
       </div>
+    </div>
+    <About/>
     </>
   );
 }
