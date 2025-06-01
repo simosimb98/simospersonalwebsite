@@ -5,19 +5,19 @@
   /* border: 1px solid blue; */
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 
-
 .page-content {
+  background-color: #FAF9F6;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 30px;
   border: 5px solid black;
+  gap: 25px;
   height: 100vh;
-  gap: 50px;
   /* position: relative; */
   /* left: 200px; */
 }
