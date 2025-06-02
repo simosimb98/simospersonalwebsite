@@ -1,17 +1,17 @@
 .about-me {
   display: flex;
   align-items: center;
-  gap: 1rem;
 }
 
 .about-me h1 {
   margin: 50px;
+  color: #36A9A9;
 }
 
 .about-me .line {
   flex-grow: 1;
   height: 10px;
-  background-color: #000;
+  background-color: #36A9A9;
   border-radius: 10px;
   margin: 50px;
 }
