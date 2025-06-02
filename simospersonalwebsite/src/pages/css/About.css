@@ -1,17 +1,35 @@
-.about-me {
+.about-me-header {
   display: flex;
   align-items: center;
 }
 
-.about-me h1 {
+.about-me-header h1 {
   margin: 50px;
   color: #36A9A9;
 }
 
-.about-me .line {
+.about-me-header .line {
   flex-grow: 1;
   height: 10px;
   background-color: #36A9A9;
   border-radius: 10px;
   margin: 50px;
+}
+
+.profile-picture-about img {
+  border-radius: 50%;
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+}
+
+.about-me-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-me-text {
+  padding: 20px;
 }
