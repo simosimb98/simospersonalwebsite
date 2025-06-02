@@ -8,13 +8,15 @@ import Home from './pages/Home.js';
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/home" element={<Home />}/>
-        </Routes>
-      </Router>
+    <body>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/home" element={<Home />}/>
+          </Routes>
+        </Router>
+      </body>
     </>
   );
 }

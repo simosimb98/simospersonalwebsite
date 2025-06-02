@@ -1,0 +1,17 @@
+.about-me {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-me h1 {
+  margin: 50px;
+}
+
+.about-me .line {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 50px;
+}
