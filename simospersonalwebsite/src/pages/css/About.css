@@ -4,7 +4,7 @@
 }
 
 .about-me-header h1 {
-  margin: 50px;
+  margin: 20px;
   color: #36A9A9;
 }
 
@@ -13,23 +13,38 @@
   height: 10px;
   background-color: #36A9A9;
   border-radius: 10px;
-  margin: 50px;
+  margin: 20px;
 }
 
 .profile-picture-about img {
+  max-width: 100%;
+  height: auto;
+  display: block;
   border-radius: 50%;
   box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
 }
 
 .about-me-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 45px;
-  width: 80%;
-  margin: 0 auto;
+  gap: 1rem;
+  min-height: 100vh;
 }
 
 .about-me-text {
-  padding: 20px;
+  padding: 1rem;
+}
+
+.about-me-text p{
+  width: 800px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.about-me-text h2 {
+  color: #586BA4;
+  font-weight: bolder;
+  font-size: x-large;
 }
