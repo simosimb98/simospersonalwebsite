@@ -4,15 +4,17 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 1.5rem;
   gap: 1rem;
   min-height: 100vh;
-  margin: 0 auto;
+  margin-top: 1rem;
   /* position: relative; */
   /* left: 200px; */
 }
 
 .profile-picture img {
+  width: 100%;
+  height: auto;
   border-radius: 50%;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }

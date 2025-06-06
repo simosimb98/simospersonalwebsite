@@ -1,7 +1,6 @@
 .navbar {
     background-color: #0F1214;
-    height: 80px;
-    /* width: 100%; */
+    min-height: 80px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -11,6 +10,12 @@
     right: 0; /* optional */
     z-index: 1000; /* usually to keep it on top */
     /* display: none; */
+}
+
+@media screen and (max-width: 540px){
+    .navbar {
+        min-height: 52px;
+    }
 }
 
 .menu-bars {

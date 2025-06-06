@@ -1,0 +1,17 @@
+.education-header {
+  display: flex;
+  align-items: center;
+}
+
+.education-header h1 {
+  margin: 20px;
+  color: #36A9A9;
+}
+
+.education-header .line {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #36A9A9;
+  border-radius: 10px;
+  margin: 20px;
+}

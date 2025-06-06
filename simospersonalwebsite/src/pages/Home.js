@@ -1,6 +1,7 @@
 import './css/Home.css';
 import { useNavigate } from "react-router-dom";
 import About from './About.js';
+import Education from './Education.js';
 
 function Home() {
   const navigateToAbout = useNavigate();
@@ -9,7 +10,7 @@ function Home() {
     <>
     <div className="home-section">
       <div className="profile-picture">
-        <img width="300" height="300" src="/images/simos_imbraem_logo_1_new.png" alt="Simos Imbraem"/>
+        <img src="/images/simos_imbraem_logo_1_new_resized.png" alt="Simos Imbraem"/>
       </div>
       <div className="welcome-text">
         <h4>Hello there!</h4>
@@ -26,6 +27,7 @@ function Home() {
       </div>
     </div>
     <About/>
+    <Education/>
     </>
   );
 }

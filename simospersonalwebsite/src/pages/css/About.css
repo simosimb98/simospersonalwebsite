@@ -17,12 +17,14 @@
 }
 
 .profile-picture-about img {
-  max-width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: auto;
   display: block;
   border-radius: 50%;
   box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
 }
+
 
 .about-me-items {
   display: flex;
@@ -35,15 +37,15 @@
 
 .about-me-text {
   padding: 1rem;
+  max-width: 65%;
 }
 
-.about-me-text p{
-  width: 800px;
+.about-me-text-description p{
   line-height: 1.6;
   letter-spacing: 0.5px;
 }
 
-.about-me-text h2 {
+.about-me-text-header h2 {
   color: #586BA4;
   font-weight: bolder;
   font-size: x-large;
