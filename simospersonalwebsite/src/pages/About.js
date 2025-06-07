@@ -1,4 +1,5 @@
 import { Element, Events, scrollSpy } from "react-scroll";
+import * as FaIcons from 'react-icons/fa';
 import './css/About.css';
 
 function About() {
@@ -25,10 +26,11 @@ function About() {
                             A passionate fullstack developer with a sharp eye for both front-end aesthetics and back-end efficiency. Skilled in building responsive, user-friendly interfaces and robust server-side systems. Thrives in dynamic environments, turning complex ideas into seamless digital experiences. Continuously learning and evolving with the latest technologies. Driven by curiosity, creativity, and clean code.
                         </p>
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    vale age, vale city..
+                    <br></br>
+                      <div className="about-me-icons">
+                        <span><FaIcons.FaUserClock />26 years old</span>
+                        <span><FaIcons.FaMapPin />Paphos, Cyprus</span>
+                    </div>
                 </div>
             </div>
         </Element>

@@ -50,3 +50,19 @@
   font-weight: bolder;
   font-size: x-large;
 }
+
+.about-me-icons {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1rem;
+  white-space: nowrap;
+  gap: 0.5rem;
+}
+
+.about-me-icons span{
+  background-color: #36A9A9;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
