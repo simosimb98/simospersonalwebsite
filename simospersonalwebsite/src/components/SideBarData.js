@@ -20,6 +20,18 @@ export const SideBarData = [
         clName: 'nav-text'
     },
     {
+        title : 'Tech Stack',
+        path  : 'tech-stack',
+        icon  : <FaIcons.FaLaptopCode />,
+        clName: 'nav-text'
+    },
+    {
+        title : 'Projects',
+        path  : 'projects',
+        icon  : <FaIcons.FaProjectDiagram />,
+        clName: 'nav-text'
+    },
+    {
         title : 'Contact',
         path  : 'contact',
         icon  : <FaIcons.FaRegEnvelopeOpen />,

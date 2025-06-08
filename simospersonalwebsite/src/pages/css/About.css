@@ -40,6 +40,12 @@
   max-width: 65%;
 }
 
+@media (max-width: 500px) {
+  .about-me-text {
+    max-width: 100%;
+  }
+}
+
 .about-me-text-description p{
   line-height: 1.6;
   letter-spacing: 0.5px;
