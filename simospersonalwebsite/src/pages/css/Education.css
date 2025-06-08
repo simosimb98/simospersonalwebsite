@@ -15,3 +15,51 @@
   border-radius: 10px;
   margin: 20px;
 }
+
+.education-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* min-height: 100vh; */
+}
+
+.edu-logo img{
+  width: 90%;
+  /* margin: 0 auto; */
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+}
+
+.edu-logo-school img{
+  width: 65%;
+  /* margin: 0 auto; */
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+}
+
+.uni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.university-description {
+  padding: 0.5rem;
+}
+
+.school {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.school-description {
+  padding: 0.5rem;
+}
