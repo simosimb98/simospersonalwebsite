@@ -29,7 +29,7 @@ function Home() {
     </div>
     <About/>
     <Education/>
-    <Projects/>
+    <Projects owner="simosimb98"/>
     </>
   );
 }

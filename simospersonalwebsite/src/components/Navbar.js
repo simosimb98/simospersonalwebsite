@@ -1,6 +1,5 @@
 import React, { useState } from 'react'; 
 import * as FaIcons from 'react-icons/fa';
-// import { Link } from 'react-router-dom';
 import { SideBarData } from './SideBarData';
 import Socials from './Socials';
 import './css/Navbar.css';
