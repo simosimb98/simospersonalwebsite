@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import About from './About.js';
 import Education from './Education.js';
 import Projects from './Projects.js';
+import TechStack from './TechStack.js';
 
 function Home() {
   const navigateToAbout = useNavigate();
@@ -29,6 +30,7 @@ function Home() {
     </div>
     <About/>
     <Education/>
+    <TechStack/>
     <Projects owner="simosimb98"/>
     </>
   );

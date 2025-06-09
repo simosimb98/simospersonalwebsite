@@ -2,13 +2,8 @@
 
 * {
   box-sizing: border-box;
-  /* border: 1px solid blue; */
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lu1cida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-}
-
-body {
-    background-color: #FAF9F6;
-    font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-color: #F2F0EF; */
 }

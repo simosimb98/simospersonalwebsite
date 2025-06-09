@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import { SideBarData } from './SideBarData';
 import Socials from './Socials';

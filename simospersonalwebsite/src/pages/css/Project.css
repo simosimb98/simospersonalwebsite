@@ -1,0 +1,26 @@
+.open-source-repositories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 50px;
+}
+
+.projects-header {
+  display: flex;
+  align-items: center;
+}
+
+.projects-header h1 {
+  margin: 20px;
+  color: #36A9A9;
+}
+
+.projects-header .line {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #36A9A9;
+  border-radius: 10px;
+  margin: 20px;
+}
