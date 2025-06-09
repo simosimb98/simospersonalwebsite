@@ -4,6 +4,7 @@ import About from './About.js';
 import Education from './Education.js';
 import Projects from './Projects.js';
 import TechStack from './TechStack.js';
+import Footer from '../components/Footer.js';
 
 function Home() {
   const navigateToAbout = useNavigate();
@@ -32,6 +33,7 @@ function Home() {
     <Education/>
     <TechStack/>
     <Projects owner="simosimb98"/>
+    <Footer/>
     </>
   );
 }

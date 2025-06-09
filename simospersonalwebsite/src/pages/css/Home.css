@@ -20,7 +20,7 @@
 }
 
 .welcome-text span{
-  color: #36A9A9;
+  color: #2E3C42;
   text-align: center;
 }
 
@@ -48,10 +48,10 @@
   text-align: center;
   padding: 16px 14px 18px;
   color: #fff;
-  background-color: #36A9A9;
+  background-color: #2E3C42;
   height: 48px;
   :hover{
-      background-color: #36A9A9;
+      background-color: #2E3C42;
   }
                 
 }

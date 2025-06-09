@@ -13,14 +13,15 @@
 }
 
 .projects-header h1 {
-  margin: 20px;
-  color: #36A9A9;
+  padding: 1.5rem;
+  color: #2E3C42;
+  text-shadow: rgb(97, 95, 85) 1px 0 3px;
 }
 
 .projects-header .line {
   flex-grow: 1;
   height: 10px;
-  background-color: #36A9A9;
+  background-color: #2E3C42;
   border-radius: 10px;
-  margin: 20px;
+  margin-right: 20px;
 }

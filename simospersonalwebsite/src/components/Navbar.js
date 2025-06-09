@@ -16,9 +16,20 @@ function Navbar() {
     return(
         <>
             <div className="navbar">
-                <Link to="/" className="menu-bars">
+                <Link to="/" className="menu-bars hamburger-icon">
                     <FaIcons.FaAlignJustify className="navbar-icon" onClick={showSidebar} />
                 </Link>
+                <div className="navbar-main">
+                    {SideBarData.map((itm,idx)=> {
+                        return(
+                            <li className={itm.clName} key={idx}>
+                                <Link to={itm.path} smooth={true} duration={500} spy={true} activeClass="active">
+                                    {itm.icon} <span>{itm.title}</span>
+                                </Link>
+                            </li>
+                        );
+                    })}
+                </div>
             </div>
             
             <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
@@ -36,8 +47,6 @@ function Navbar() {
                         );
                     })}
                 </ul>
-
-                <Socials/>
             </nav>
         </>
     );

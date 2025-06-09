@@ -15,15 +15,12 @@ function About() {
                 </div>
                 <div className="about-me-text">
                     <div className="about-me-text-header">
-                        <h2>Full stack developer!</h2><br/>
+                        <h2>Web developer</h2><br/>
                     </div>
-                    <h3>
-                        Passionate developer based in Cyprus.
-                    </h3>
                     <br/>
                     <div className="about-me-text-description">
                         <p>
-                            A passionate fullstack developer with a sharp eye for both front-end aesthetics and back-end efficiency. Skilled in building responsive, user-friendly interfaces and robust server-side systems. Thrives in dynamic environments, turning complex ideas into seamless digital experiences. Continuously learning and evolving with the latest technologies. Driven by curiosity, creativity, and clean code.
+                            A passionate full-stack developer with a sharp eye for both front-end aesthetics and back-end efficiency. Skilled in building responsive, user-friendly interfaces and robust server-side systems. Thrives in dynamic environments, turning complex ideas into seamless digital experiences. Continuously learning and evolving with the latest technologies. Driven by curiosity, creativity, and clean code.
                         </p>
                     </div>
                     <br></br>

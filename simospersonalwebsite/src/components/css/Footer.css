@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 18vh;
+    background-color: #2C2F33;
+}
+
+.footer p {
+    color: #F5F5F5;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}

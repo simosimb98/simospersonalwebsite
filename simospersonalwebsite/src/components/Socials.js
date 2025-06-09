@@ -8,7 +8,8 @@ function Socials () {
         <div className="my-socials">
             <a href="https://www.instagram.com/simos_imb/" target="_blank" rel="noopener noreferrer"><FaIcons.FaLinkedin /></a>
             <a href=""><FaIcons.FaFacebook /></a>
-            <a href=""><FaIcons.FaInstagramSquare /></a>
+            <a href=""><FaIcons.FaInstagramSquare /></a> 
+            <a href=""><FaIcons.FaMailBulk /></a> 
         </div>
     );
 }

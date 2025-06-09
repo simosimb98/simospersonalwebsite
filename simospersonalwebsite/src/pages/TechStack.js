@@ -4,15 +4,19 @@ import Slider from "react-slick";
 import { Element } from "react-scroll";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
+import * as FaIcons from 'react-icons/fa';
 import './css/TechStack.css';
 
 function TechStack() {
   const skills = [
-    { icon: <FaHtml5 />, name: "HTML5" },
-    { icon: <FaCss3Alt />, name: "CSS3" },
-    { icon: <FaJs />, name: "JavaScript" },
-    { icon: <FaReact />, name: "React" },
+    { icon: <FaIcons.FaHtml5 />, name: "HTML5" },
+    { icon: <FaIcons.FaCss3Alt />, name: "CSS3" },
+    { icon: <FaIcons.FaJs />, name: "JavaScript" },
+    { icon: <FaIcons.FaReact />, name: "React" },
+    { icon: <FaIcons.FaPhp  />, name: "PHP" },
+    { icon: <FaIcons.FaJava   />, name: "Java" }, 
+    { icon: <FaIcons.FaGitSquare   />, name: "Git" },
+    { icon: <FaIcons.FaDatabase    />, name: "SQL" }, 
   ];
 
   const settings = {
@@ -34,14 +38,24 @@ function TechStack() {
         <h1>Tech Stack</h1>
         <div className="line"></div>
       </div>
-      <div className="slider-container">
-        <Slider {...settings}>
-          {skills.map((skill, index) => (
-            <div key={index} className="slide-item">
-              <div className="icon">{skill.icon}</div>
-            </div>
-          ))}
-        </Slider>
+      <div className="tech-stack-container">
+          <div className="tech-stack-description">
+            <p>Checkout my current tech stack!</p>
+            <ul>
+              <li>Exploring new tech</li>
+              <li>Keeping up with modern tech</li>
+              <li>Willing to learn & adapt</li>
+            </ul>
+          </div>
+        <div className="slider-container">
+          <Slider {...settings}>
+            {skills.map((skill, index) => (
+              <div key={index} className="slide-item">
+                <div className="icon">{skill.icon}</div>
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
     </Element>
   );

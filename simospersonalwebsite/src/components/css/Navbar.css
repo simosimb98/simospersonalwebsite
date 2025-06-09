@@ -12,9 +12,29 @@
     /* display: none; */
 }
 
-@media screen and (max-width: 540px){
+.hamburger-icon, .nav-menu {
+    display: none;
+}
+
+.navbar-main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 886px){
     .navbar {
         min-height: 52px;
+    }
+
+    .navbar-main {
+        display: none;
+    }
+
+    .menu-bars, .hamburger-icon {
+        display: block;
     }
 }
 
@@ -48,7 +68,6 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    /* padding: 8px 0px 8px 16px; */
     list-style: none;
     height: 60px;
 }
