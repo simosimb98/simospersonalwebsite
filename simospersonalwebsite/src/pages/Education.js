@@ -1,7 +1,31 @@
+import * as React from 'react';
 import './css/Education.css'
 import { Element, Events, scrollSpy } from "react-scroll";
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import CardActionArea from '@mui/material/CardActionArea';
 
 function Education() {
+
+    const education_items = [
+        {
+            name: "Cyprus University of Technology",
+            title: "BSc Computer Engineering & Informatics",
+            period:"September 2017 - June 2022",
+            image:"/images/cut-logo.jpg",
+            alt: "cut-logo"
+        },
+        {
+            name: "Technical school of Paphos",
+            title: "High school diploma",
+            period:"September 2012 - June 2015",
+            image:"/images/tech-school-logo.jpg",
+            alt: "techscholl-logo"
+        }
+    ];
+
     return (
         <Element name="education" className="section">
             <div className="education-header">
@@ -10,27 +34,27 @@ function Education() {
             </div>
             <div className="education-content">
                 <div className="edu-section">
-                    <div className="edu-description">
-                        <h2>Cyprus University of Technology</h2>
-                        <br/>
-                        <h3>BSc in Computer Engineering & Informatics</h3>
-                        <p>September 2017 - June 2022</p>
-                    </div>  
-                    <div className="uni-logo edu-logo">
-                        <img src="/images/cut-logo.jpg" alt="cut_log" />   
-                    </div>
-                </div>
-                <br/>
-                <div className="edu-section">
-                    <div className="edu-description">
-                        <h2>Technical school of Paphos</h2>
-                        <br/>
-                        <h3>High school diploma</h3>
-                        <p>September 2012 - June 2015</p>
-                    </div>  
-                    <div className="school-logo edu-logo">
-                        <img src="/images/tech-school-logo.jpg" alt="cut_log" />   
-                    </div>
+                    {education_items.map((item, idx) => (
+                        <Card sx={{ maxWidth: 345 }}>
+                        <CardActionArea>
+                            <CardMedia
+                            component="img"
+                            height="140"
+                            image= {item.image}
+                            alt={item.alt}
+                            />
+                            <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                                <h3>{item.name}</h3>
+                            </Typography>
+                            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                <h4>{item.title}</h4>
+                                <p>{item.period}</p>
+                            </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                    </Card>
+                    ))}   
                 </div>
             </div>
         </Element>

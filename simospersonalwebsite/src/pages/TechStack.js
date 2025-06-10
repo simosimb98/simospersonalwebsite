@@ -13,10 +13,10 @@ function TechStack() {
     { icon: <FaIcons.FaCss3Alt />, name: "CSS3" },
     { icon: <FaIcons.FaJs />, name: "JavaScript" },
     { icon: <FaIcons.FaReact />, name: "React" },
-    { icon: <FaIcons.FaPhp  />, name: "PHP" },
-    { icon: <FaIcons.FaJava   />, name: "Java" }, 
-    { icon: <FaIcons.FaGitSquare   />, name: "Git" },
-    { icon: <FaIcons.FaDatabase    />, name: "SQL" }, 
+    { icon: <FaIcons.FaPhp />, name: "PHP" },
+    { icon: <FaIcons.FaJava />, name: "Java" }, 
+    { icon: <FaIcons.FaGitSquare />, name: "Git" },
+    { icon: <FaIcons.FaDatabase />, name: "SQL" }, 
   ];
 
   const settings = {
@@ -40,11 +40,10 @@ function TechStack() {
       </div>
       <div className="tech-stack-container">
           <div className="tech-stack-description">
-            <p>Checkout my current tech stack!</p>
-            <ul>
-              <li>Exploring new tech</li>
-              <li>Keeping up with modern tech</li>
-              <li>Willing to learn & adapt</li>
+            <ul className="tech-stack-list">
+              <li>Exploring new technologies.</li>
+              <li>Keeping up with modern tech.</li>
+              <li>Willing to learn & adapt.</li>
             </ul>
           </div>
         <div className="slider-container">

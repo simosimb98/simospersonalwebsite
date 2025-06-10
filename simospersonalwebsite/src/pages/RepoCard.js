@@ -5,9 +5,11 @@ import './css/RepoCard.css';
 
 function RepoCard({ owner, repo }) {
   return (
-    <a href={`https://github.com/${owner}/${repo}`} target="_blank" rel="noopener noreferrer">
-      <img src={`https://gh-card.dev/repos/${owner}/${repo}.svg`} alt={`${repo} GitHub card`} />
-    </a>
+    <div className="repo-card-container">
+        <a href={`https://github.com/${owner}/${repo}`} target="_blank" rel="noopener noreferrer">
+          <img src={`https://gh-card.dev/repos/${owner}/${repo}.svg`} alt={`${repo} GitHub card`} />
+        </a>
+    </div>
   );
 }
 

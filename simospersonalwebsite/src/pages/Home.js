@@ -12,8 +12,8 @@ function Home() {
   return (
     <>
     <div className="home-section">
-      <div className="profile-picture">
-        <img src="/images/simos_imbraem_logo_1_new_resized.png" alt="Simos Imbraem"/>
+      <div className="profile-picture-home">
+        <img src="/images/Untitled-3.svg" alt="Simos Imbraem"/>
       </div>
       <div className="welcome-text">
         <h4>Hello there!</h4>
