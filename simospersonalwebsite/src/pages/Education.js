@@ -44,12 +44,11 @@ function Education() {
                             alt={item.alt}
                             />
                             <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                <h3>{item.name}</h3>
+                            <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center',}}>
+                                {item.name}
                             </Typography>
-                            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                <h4>{item.title}</h4>
-                                <p>{item.period}</p>
+                            <Typography variant="body2" sx={{ color: 'text.secondary', textAlign: 'center'}}>
+                               {item.title} <br/> {item.period}
                             </Typography>
                             </CardContent>
                         </CardActionArea>

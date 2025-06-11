@@ -8,13 +8,16 @@
   gap: 1rem;
   min-height: 100vh;
   margin-top: 1rem;
-  /* position: relative; */
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
   /* left: 200px; */
 }
 
 .profile-picture-home img {
   width: 100%;
   height: auto;
+
   /* border-radius: 10%;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.3); */
 }
@@ -28,30 +31,10 @@
   text-align: center;
 }
 
-.home-about-button {
-  display: block;
-  margin: 0 auto;
-  margin-top: 25px;
-  outline: none;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  border-radius: 500px;
-  transition-property: background-color,border-color,color,box-shadow,filter;
-  transition-duration: .3s;
-  border: 1px solid transparent;
-  letter-spacing: 2px;
-  min-width: 160px;
-  text-transform: uppercase;
-  white-space: normal;
-  font-weight: 700;
-  text-align: center;
-  padding: 16px 14px 18px;
-  color: #fff;
-  background-color: #2E3C42;
-  height: 48px;
-  :hover{
-      background-color: #2E3C42;
-  }
-                
+.btn-group-home {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }

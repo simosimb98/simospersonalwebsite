@@ -74,5 +74,5 @@
 .tech-stack-list li::before {
   content: "🗸"; /* or any emoji/text icon */
   margin-right: 8px;
-  color: black;
+  color: #0f6e2c;
 }

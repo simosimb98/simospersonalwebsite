@@ -52,7 +52,8 @@
 }
 
 .about-me-text-header h2 {
-  color: #2E3C42;
+  color: #0b5f7a;
+  text-align: center;
   font-weight: bolder;
   font-size: x-large;
 }
@@ -69,9 +70,10 @@
 }
 
 .about-me-icons span{
-  background-color: #8B8589;
+  background-color: #035570;
   border-radius: 2rem;
   padding: 0.5rem;
   width: 10em;
   text-align: center;
+  color: #fff;
 }

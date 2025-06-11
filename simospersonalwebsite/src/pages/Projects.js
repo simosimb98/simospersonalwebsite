@@ -12,7 +12,6 @@ function Projects (props) {
         axios
             .get(`https://api.github.com/users/${props.owner}/repos`)
             .then(resp => {
-                console.log(resp.data);
                 setData(resp.data);
                 setLoading(true);
             })
