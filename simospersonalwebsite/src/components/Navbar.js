@@ -16,6 +16,9 @@ function Navbar() {
     return(
         <>
             <div className="navbar">
+                <Link to="home" smooth={true} duration={500} spy={true} activeClass="active" className="nav-profile-logo">
+                    <img width="85" height="85" src="/images/Untitled-3.svg" alt="Simos Imbraem"/>
+                </Link>
                 <Link to="/" className="menu-bars hamburger-icon">
                     <FaIcons.FaAlignJustify className="navbar-icon" onClick={showSidebar} />
                 </Link>

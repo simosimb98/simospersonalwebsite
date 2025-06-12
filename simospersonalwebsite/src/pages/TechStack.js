@@ -22,7 +22,7 @@ function TechStack() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 2000,
+    speed: 3000,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -41,9 +41,11 @@ function TechStack() {
       <div className="tech-stack-container">
           <div className="tech-stack-description">
             <ul className="tech-stack-list">
+              <li>Tech Enthusiast.</li>
               <li>Exploring new technologies.</li>
               <li>Keeping up with modern tech.</li>
               <li>Willing to learn & adapt.</li>
+              <li>Team player.</li>
             </ul>
           </div>
         <div className="slider-container">

@@ -14,6 +14,11 @@
 
 .hamburger-icon, .nav-menu {
     display: none;
+    padding: 0;
+}
+
+.nav-profile-logo :hover {
+    cursor: pointer;
 }
 
 .navbar-main {
@@ -29,7 +34,7 @@
         min-height: 52px;
     }
 
-    .navbar-main {
+    .navbar-main, .nav-profile-logo  {
         display: none;
     }
 
@@ -39,10 +44,10 @@
 }
 
 .menu-bars {
-    margin-left: 1rem;
+    margin: 1rem;
     font-size: 2rem;
     background: none;
-    color: antiquewhite
+    color: antiquewhite;
     /* display: none; */
 }
 
@@ -70,6 +75,7 @@
     align-items: center;
     list-style: none;
     height: 60px;
+    white-space: nowrap;
 }
 
 .nav-text a {
@@ -86,7 +92,8 @@
 }
 
 .nav-text a:hover {
-    background-color: #36A9A9;
+    background-color: #035570;
+    cursor: pointer;
 }
 
 .nav-menu-items {

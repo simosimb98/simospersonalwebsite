@@ -11,15 +11,18 @@
   position: relative;
   z-index: 100;
   overflow: hidden;
-  /* left: 200px; */
+}
+
+@media screen and (max-width: 721px){
+  .home-section {
+    display: flex;
+    flex-direction : column;
+  }
 }
 
 .profile-picture-home img {
   width: 100%;
-  height: auto;
-
-  /* border-radius: 10%;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.3); */
+  height: auto; 
 }
 
 .welcome-text span{
