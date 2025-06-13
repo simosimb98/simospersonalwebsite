@@ -35,7 +35,6 @@
 .slider-container {
   max-width: 50%;
   max-height: 80%;
-  /* margin: 0 auto; */
 }
 
 .slider-container h3{
@@ -55,7 +54,13 @@
   transition: transform 0.3s;
   width: 100%;
   font-size: 4rem;
+  padding: 2rem;
   /* height: auto; */
+}
+
+.slide-item .name {
+  font-size: 1rem;
+  /* padding: 2rem; */
 }
 
 .slide-item .label {

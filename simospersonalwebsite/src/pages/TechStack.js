@@ -1,6 +1,7 @@
 // src/pages/TechStack.js
 import React from "react";
 import Slider from "react-slick";
+import Marquee from "react-fast-marquee";
 import { Element } from "react-scroll";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -49,13 +50,14 @@ function TechStack() {
             </ul>
           </div>
         <div className="slider-container">
-          <Slider {...settings}>
+          <Marquee speed={50} gradient={false}>
             {skills.map((skill, index) => (
               <div key={index} className="slide-item">
                 <div className="icon">{skill.icon}</div>
+                <div className="name">{skill.name}</div>
               </div>
             ))}
-          </Slider>
+          </Marquee>
         </div>
       </div>
     </Element>
