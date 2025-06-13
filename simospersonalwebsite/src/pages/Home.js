@@ -16,7 +16,7 @@ function Home() {
   const downloadResume = () => {
     const link = document.createElement("a");
 
-    link.href="/files/Simos_Imbraem_Resume_WEB_DEV_CEI.pdf";
+    link.href="/files/Simos_Imbraem_Resume.pdf";
     link.download = "Simos_Imbraem_Resume";
 
     link.click();
